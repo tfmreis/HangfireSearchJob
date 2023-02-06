@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "Hangfire Dashboard Search Job Filter",
+  "short_name": "HF Search Jobs",
+  "description": "Hangfire Dashboard Search Job Filter Extension",
+  "author": "Thiago F. M. Reis",
+  "homepage_url": "http://github.com/tfmreis",
+  "version": "1.3",
+  "icons": { 
+    "16": "assets/icons/16x16.png", 
+    "48": "assets/icons/48x48.png", 
+    "128": "assets/icons/128x128.png" 
+  },   
+  "browser_action": {
+    "default_title": "HF Search Job Filter",
+    "default_icon": {
+      "19": "assets/icons/19x19.png",
+      "38": "assets/icons/38x38.png"
+      }  
+  },
+  "permissions": [
+    "http://*/*jobs*",
+    "https://*/*jobs*"
+  ],
+  "background": {
+    "scripts": [
+      "assets/js/background.js"
+    ],
+    "persistent": true
+  },
+  "web_accessible_resources": [
+    "assets/img/*.gif"    
+  ]
+}
