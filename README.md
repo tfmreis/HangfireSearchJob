@@ -1,7 +1,7 @@
 # Hangfire Search Job Extension
- A chrome extension workaround for filtering hangfire jobs on the dashboard.
+Chrome extension Hangfire Search Job.
  
-Devido um deficiência da DashBoard do HangFire por um filtro de pesquisa para os Jobs.
+Devido um deficit de funcionalidade na DashBoard do HangFire por um filtro de pesquisa para os Jobs.
 Essa Extensão do Chrome “HangFire Search Job” que possibilita realizar filtros pelo nome do Jobs, limitando a pesquisa dentro numero de itens num total de pagina.
  <h1 align="left">
 <img src="./assets/img/Screenshot_1.png" />
